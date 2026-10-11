@@ -44,6 +44,10 @@ public class SecondActivity extends AppCompatActivity {
             return insets;
         });
 
+        Button openMainActivityButton = findViewById(R.id.open_main_activity_button);
+        openMainActivityButton.setOnClickListener(view ->
+                startActivity(new Intent(SecondActivity.this, MainActivity.class)));
+
         Button openThirdActivityButton = findViewById(R.id.open_third_activity_button);
         openThirdActivityButton.setOnClickListener(view -> {
             Bundle data = new Bundle();
