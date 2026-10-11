@@ -3,4 +3,9 @@
     <string name="hello_world">Hello World!</string>
     <string name="open_third_activity">Deschide activitatea 3</string>
     <string name="third_activity_title">Activitatea 3</string>
+    <string name="message_from_second">Salut din activitatea 2!</string>
+    <string name="message_from_third">Salut din activitatea 3!</string>
+    <string name="received_values">%1$s\nValori: %2$d și %3$d</string>
+    <string name="received_result">%1$s\nSuma: %2$d</string>
+    <string name="return_result">Trimite rezultatul înapoi</string>
 </resources>
