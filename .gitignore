@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Android Studio / IntelliJ: setări locale
+.idea/
+*.iml
+captures/
+
+# Gradle și fișiere generate de build
+.gradle/
+.kotlin/
+build/
+.externalNativeBuild/
+.cxx/
+
+# Calea SDK-ului și setări private
+local.properties
+.env
+.env.*
+!.env.example
+keystore.properties
+key.properties
+
+# Chei de semnare și pachete generate
+*.jks
+*.keystore
+*.apk
+*.aab
+*.ap_
